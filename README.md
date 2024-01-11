@@ -4,7 +4,7 @@ Este repositorio contiene un script en Python que automatiza la creación de bac
 
 ## Estructura de Carpetas
 
-- `Ejecuciones.py`: Contiene el script principal.
+- `main.py`: Contiene el script principal.
 - `Ejemplos/`: Ejemplos de consultas y como guarda los backups en los archivos excell. 
 - `Resultados/`: Carpeta donde se almacenan los archivos Excel generados, esta ruta se puede cambiar a gusto
 
@@ -20,13 +20,13 @@ Este repositorio contiene un script en Python que automatiza la creación de bac
 
 ## Instrucciones de Ejecución
 
-1. Pegar las ejecuciones en la variable 'raw_text' en archivo ejecuciones.py las ejecuciones
+1. Pegar las ejecuciones en la variable 'raw_text' en archivo main.py las ejecuciones
    tienen que tener este formato especifico para que el script lo pueda selecionar de manera correcta.
       Ejemplo:
         Select * from table_1 where cod_user = '12345';
    El script selecciona todo lo que este entre un "select", "update", "insert" o "delete" hasta un ";"
     
-3. Ejecutar el script principal (`ejecuciones.py`).
+3. Ejecutar el script principal (`main.py`).
 2. Ingresar el número del link de referencia cuando se solicite (actualmente el script acepta 5 digitos si no da un error, esto se puede cambiar a gusto) 
 3. Verificar los archivos Excel generados en la carpeta `Resultados/`.
 4. Verificar si las sentencias Update, Delete, Insert corrieron correctamente. 
