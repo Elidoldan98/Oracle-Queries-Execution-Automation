@@ -5,11 +5,11 @@ import re
 import os
 
 # Configuración de la conexión a la base de datos Oracle
-dsn = cx_Oracle.makedsn('''url''', '''port''', service_name='''database name''')
+dsn = cx_Oracle.makedsn('url', 'port', service_name='database name')
 connection = cx_Oracle.connect('user', 'password', dsn=dsn)
 
 # Ruta donde se guardarán los archivos Excel
-output_folder = r'C:\IT\BK'
+output_folder = r'resultados_excel'
 os.makedirs(output_folder, exist_ok=True)
 
 #esta parte del codigo se envia en las ejecuciones para consultas de auditoria
