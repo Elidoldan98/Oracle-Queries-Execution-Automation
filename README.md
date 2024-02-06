@@ -1,4 +1,4 @@
-# Automatización de Backup y Actualización de Base de Datos Oracle
+# Automatización de Backup y Ejecuciones en de Bases de Datos Oracle
 
 Este repositorio contiene un script en Python que automatiza la creación de backups y la ejecución de comandos en una base de datos Oracle. El script utiliza cx_Oracle y pandas para interactuar con la base de datos y generar archivos Excel con los resultados de las consultas SELECT.
 
